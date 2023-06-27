@@ -149,53 +149,133 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative max-w-[1440px] mx-auto px-4">
+      <div className="relative max-w-[1440px] mx-auto px-4 mb-26">
         <div className="flex justify-center text-center font-sans mb-8 text-[40px] font-medium">
           A selection of my best projects.
         </div>
-        <div className="flex justify-center content-center font-sans font-light gap-10">
-          <div className="mb-4 lg:mb-0 md:w-6/12 lg:w-6/12 bg-color2 text-black rounded-[40px] px-14 sm:w-auto md:max-w-auto lg:max-w-[566px] h-[300px]">
-            <div className="flex row">
-              <div className="w-1/2 py-10">
-                <div className="text-[33px] font-medium mb-[16px]">
-                  UI/UX Designer
-                </div>
-                <div className="text-[16px] w-[300px]">
-                  A full knowledge of HTML / CSS and Javascript. I make
-                  responsive applications with Bootstrap and dynamic Web's with
-                  Laravel Framework.
-                </div>
-              </div>
-              <div className="w-1/2">
-                <div className="relative text-[33px] font-medium mb-[28px] content-center justify-center text-center">
-                  <div className="absolute -right-10 top-0 lg:-top-4">
-                    <Image
-                      width={330}
-                      height={330}
-                      className="mx-auto justify-center content-center"
-                      src="/brush.png"
-                      alt="ilustration bursh"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="relative md:w-6/12 lg:w-6/12 bg-color2 text-black rounded-[40px] px-14 sm:w-auto md:max-w-auto lg:max-w-[566px] h-[300px]">
+        <div className="sm:block md:flex lg:flex justify-center content-center font-sans font-light gap-10 mb-4">
+          <div className="relative mb-6 md:w-6/12 lg:w-6/12 rounded-[40px] bg-color2 text-black  px-14 sm:w-auto md:max-w-auto lg:max-w-[566px] h-[377px] transition-all duration-300 group shadow-none hover:shadow-great">
             <div className="overflow-hidden">
               <Image
                 fill
-                className="object-cover"
+                className="object-cover rounded-[40px]"
                 src="/intersect.jpg"
                 alt="ilustration bursh"
               />
             </div>
-            <div className="absolute right-10 bottom-4 text-[33px] font-medium">
+            <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
+              CHITCHAT
+            </div>
+            <div className="absolute right-10 bottom-4 text-[16px] font-normal transition-all duration-300 opacity-0 group-hover:opacity-100 z-30 group-hover:bottom-8 group-hover:right-10 transform">
+              20/21/2022
+            </div>
+          </div>
+          <div className="relative md:w-6/12 lg:w-6/12 rounded-[40px] bg-color2 text-black  px-14 sm:w-auto md:max-w-auto lg:max-w-[566px] h-[377px] transition-all duration-300 group shadow-none hover:shadow-great">
+            <div className="overflow-hidden">
+              <Image
+                fill
+                className="object-cover rounded-[40px]"
+                src="/rectangle1.jpg"
+                alt="ilustration bursh"
+              />
+            </div>
+            <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
               YUBA APPS
+            </div>
+            <div className="absolute right-10 bottom-4 text-[16px] font-normal transition-all duration-300 opacity-0 group-hover:opacity-100 z-30 group-hover:bottom-8 group-hover:right-10 transform">
+              20/21/2022
             </div>
           </div>
         </div>
+        <div className="sm:block md:flex lg:flex justify-center content-center font-sans font-light gap-10 mb-4">
+          <div className="relative mb-6 md:w-6/12 lg:w-6/12 rounded-[40px] bg-color2 text-black  px-14 sm:w-auto md:max-w-auto lg:max-w-[566px] h-[377px] transition-all duration-300 group shadow-none hover:shadow-great">
+            <div className="overflow-hidden">
+              <Image
+                fill
+                className="object-cover rounded-[40px]"
+                src="/intersect.jpg"
+                alt="ilustration bursh"
+              />
+            </div>
+            <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
+              CHITCHAT
+            </div>
+            <div className="absolute right-10 bottom-4 text-[16px] font-normal transition-all duration-300 opacity-0 group-hover:opacity-100 z-30 group-hover:bottom-8 group-hover:right-10 transform">
+              20/21/2022
+            </div>
+          </div>
+          <div className="relative md:w-6/12 lg:w-6/12 rounded-[40px] bg-color2 text-black  px-14 sm:w-auto md:max-w-auto lg:max-w-[566px] h-[377px] transition-all duration-300 group shadow-none hover:shadow-great">
+            <div className="overflow-hidden">
+              <Image
+                fill
+                className="object-cover rounded-[40px]"
+                src="/rectangle1.jpg"
+                alt="ilustration bursh"
+              />
+            </div>
+            <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
+              YUBA APPS
+            </div>
+            <div className="absolute right-10 bottom-4 text-[16px] font-normal transition-all duration-300 opacity-0 group-hover:opacity-100 z-30 group-hover:bottom-8 group-hover:right-10 transform">
+              20/21/2022
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center text-center mb-8">
+          <Link
+            className="p-8 font-sans text-[25px] font-light w-[273px] h-[104px] border-2 border-color2 rounded-[80px]"
+            href="/"
+          >
+            More projects
+          </Link>
+        </div>
       </div>
+      <footer className="absolute w-full bg-gray pb-10">
+        <div className="max-w-[1440px] mx-auto flex justify-center text-center text-[60px] font-medium text-color2 my-10">
+          <div className="">LETS WORK TOGHETER</div>
+        </div>
+        <div className="max-w-[1440px] mx-auto block md:flex lg:flex text-center text-[30px] font-light text-color2 gap-3 my-20">
+          <div className="mb-10">
+            <Link
+              className="px-10 py-6 font-sans text-[18px] font-light w-[308px] h-[81px] border-2 border-color2 rounded-[80px]"
+              href="/"
+            >
+              fakhriazdev@gmail.com
+            </Link>
+          </div>
+          <div className="">
+            <Link
+              className="px-10 py-6 font-sans text-[18px] font-light w-[242px] h-[81px] border-2 border-color2 rounded-[80px]"
+              href="https://wa.me/6285156114130"
+            >
+              +62 8515 6114 130
+            </Link>
+          </div>
+        </div>
+        <div className="max-w-[1440px] mx-auto flex justify-between text-center text-[30px] font-light text-color2 gap-3 px-5 lg:px-0">
+          <div className="block font-sans text-[18px] tracing-[-4px] font-light text-color2/50">
+            <div>VERSION </div>
+            <div className="text-color2">2023 1.0.0</div>
+          </div>
+          <div className="block font-sans text-[18px] tracing-[-4px] font-light text-color2/50">
+            <div>SOSICAL </div>
+            <div className="text-color2">
+              <Link
+                className="pl-8 font-sans text-[18px] font-light border-color2"
+                href="https://www.linkedin.com/in/muhamad-fakhri-aziz-199435141/"
+              >
+                LinkedIn
+              </Link>
+              <Link
+                className="pl-8 font-sans text-[18px] font-light border-color2"
+                href="https://www.instagram.com/fakhri_m.fa/"
+              >
+                Instagram
+              </Link>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
