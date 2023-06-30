@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEarthAsia } from '@fortawesome/free-solid-svg-icons';
 import Marquee from 'react-fast-marquee';
 export default function Home() {
   return (
@@ -40,7 +42,7 @@ export default function Home() {
         <div className="relative max-w-full lg:max-w-[1300px] mx-auto px-4">
           <section className="flex flex-col md:flex-row lg:flex-row md:gap-4 font-sans">
             <div className="w-12/12 md:w-6/12 lg:w-6/12">
-              <div className="bg-black w-full lg:w-[515px] h-[355px] md:h-[840px] lg:h-[840px] rounded-t-[300px] rounded-b-[300px] mx-auto relative overflow-hidden">
+              <div className="bg-black w-full lg:w-[515px] h-[550px] md:h-[840px] lg:h-[840px] rounded-t-[300px] rounded-b-[300px] mx-auto relative overflow-hidden">
                 <Image
                   fill
                   className="object-cover"
@@ -56,7 +58,12 @@ export default function Home() {
                     Location in the Indonesia
                   </div>
                   <div className="text-title1 text-[20px] font-medium">
-                    <div className="w-[62px] lg:w-[82px] h-[62px] lg:h-[82px] bg-color1 rounded-full"></div>
+                    <div className="w-[62px] lg:w-[82px] h-[62px] lg:h-[82px] bg-color1 rounded-full text-[47px] lg:text-[60px] text-title1">
+                      <FontAwesomeIcon
+                        icon={faEarthAsia}
+                        className="my-auto mx-auto w-full"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -75,7 +82,7 @@ export default function Home() {
             </div>
           </section>
         </div>
-        <div className="absolute bottom-[10px] lg:-bottom-[140px] select-none font-sans">
+        <div className="absolute w-full bottom-[10px] lg:-bottom-[140px] select-none font-sans">
           <Marquee
             className=" p-0 m-0 flextext-title1 font-normal bottom-[100px] text-[120px] lg:text-[300px] text-title1 select-none uppercase"
             direction="right"
@@ -214,7 +221,7 @@ export default function Home() {
               />
             </div>
             <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
-              YUBA APPS
+              PECAHKAN
             </div>
             <div className="absolute right-10 bottom-4 text-[16px] font-normal transition-all duration-300 opacity-0 group-hover:opacity-100 z-30 group-hover:bottom-8 group-hover:right-10 transform">
               20/21/2022
