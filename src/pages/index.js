@@ -167,7 +167,7 @@ export default function Home() {
                 fill
                 className="object-cover rounded-[40px]"
                 src="/intersect.jpg"
-                alt="ilustration bursh"
+                alt="CHITCAT APP"
               />
             </div>
             <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
@@ -183,7 +183,7 @@ export default function Home() {
                 fill
                 className="object-cover rounded-[40px]"
                 src="/rectangle1.jpg"
-                alt="ilustration bursh"
+                alt="YUBA APPS"
               />
             </div>
             <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
@@ -201,7 +201,7 @@ export default function Home() {
                 fill
                 className="object-cover rounded-[40px]"
                 src="/intersect.jpg"
-                alt="ilustration bursh"
+                alt="CHIT CHAT"
               />
             </div>
             <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
@@ -217,7 +217,7 @@ export default function Home() {
                 fill
                 className="object-cover rounded-[40px]"
                 src="/rectangle1.jpg"
-                alt="ilustration bursh"
+                alt="PECAHKAN"
               />
             </div>
             <div className="absolute right-10 bottom-4 text-[33px] font-medium transition-all duration-300 group-hover:opacity-100 z-30 group-hover:bottom-10 group-hover:right-10 transform">
