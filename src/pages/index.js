@@ -166,7 +166,7 @@ export default function Home() {
               <Image
                 fill
                 className="object-cover rounded-[40px]"
-                src="/intersect.jpg"
+                src="/project1.webp"
                 alt="CHITCAT APP"
               />
             </div>
@@ -182,7 +182,7 @@ export default function Home() {
               <Image
                 fill
                 className="object-cover rounded-[40px]"
-                src="/rectangle1.jpg"
+                src="/project1.webp"
                 alt="YUBA APPS"
               />
             </div>
@@ -200,7 +200,7 @@ export default function Home() {
               <Image
                 fill
                 className="object-cover rounded-[40px]"
-                src="/intersect.jpg"
+                src="/project1.webp"
                 alt="CHIT CHAT"
               />
             </div>
